@@ -1,13 +1,12 @@
+import React from 'react';
 import './App.css';
 
 const AppComponent = () =>  {
     return(
-    <div>
         <div className="container">
-        App Component     
+        <h1 className='heading' >App Component </h1>     
         </div>    
-    </div>
-    )
+    );
 }
 
 export default AppComponent;
